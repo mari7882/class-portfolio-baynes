@@ -1,22 +1,111 @@
 :root {
-    --primary-bg: #e3e3e3;
-    --primary-text: #444;
+    --primary-bg: #ffffff;
+    --primary-text: rgb(0, 0, 0);
     --standard-gap: 40px;
+    --secondary-bg: rgb(11, 185, 255);
+    --accent-bg: black;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: var(--primary-bg);
-    color: ar(--primary-text)
+    color: var(--primary-text);
+    padding: var(--standard-gap)
 }
 
-#projects article {
-    margin: var(--standard-gap);
+h1 {
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-nav {
-    background: green;
+header {
+    text-align: center;
+
 }
+
+#projects a {
+    margin: 20px;
+}
+
 #menu {
-    background: yellow;
+    background: var(--accent-bg);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    nav a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px;
+    }
+    nav a:hover {
+        color: var(--secondary-bg);
+        text-decoration: wavy underline;
+    }
+
+#contact {
+    background: var(--accent-bg);
+    color: white;
+    text-indent: 15px;
+    padding: 20px;
+    text-shadow: 1.5px 1.5px black;
+    font-size: 20px;
+    
+}
+
+
+
+footer {
+    background: var(--secondary-bg);
+    color: white;
+    text-align: right;
+    padding: 30px;
+}
+
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#about {
+    background: var(--secondary-bg);
+    padding: var(--standard-gap);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+    color: rgb(255, 253, 253);
+    border: 20px solid black;
+}
+
+html {
+    scroll-padding-top: 40px;
+}
+
+#career {
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+#projects {
+    article a {
+        text-align:center;
+    }
+}
+rgb(11, 185, 255)
