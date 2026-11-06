@@ -4,7 +4,7 @@
     --primary-bg: #ffffff;
     --primary-text: rgb(0, 0, 0);
     --standard-gap: 30px;
-    --secondary-bg: rgb(11, 185, 255);
+    --secondary-bg: rgb(9, 152, 209);
     --accent-bg: black;
 }
 
@@ -47,11 +47,13 @@ header {
         margin: 0 20px;
     }
     nav a {
+        display: inline-block;
         color: whitesmoke;
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
-        padding: 15px;
+        padding: 15px 18px;
+        min-height: 35px;
     }
     nav a:hover {
         color: var(--secondary-bg);
@@ -73,6 +75,7 @@ header {
 footer {
     background: var(--secondary-bg);
     color: white;
+    font-size: 20px;
     text-align: right;
     padding: 30px;
 }
@@ -84,7 +87,7 @@ h2 {
 }
 
 #about {
-    background: var(--secondary-bg);
+    background: rgb(31, 119, 219);
     padding: var(--standard-gap);
     border-radius: 10px;
     text-align: center;
@@ -128,7 +131,8 @@ p {
 }
 
 h3 {
-    color: rgb(27, 117, 235);
+    color: rgb(3, 69, 155);
     text-shadow: 0px 2px 10px rgb(142, 142, 142);
 }
+rgb(11, 185, 255)
 rgb(11, 185, 255)
