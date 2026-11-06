@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 :root {
     --primary-bg: #ffffff;
     --primary-text: rgb(0, 0, 0);
@@ -5,7 +7,6 @@
     --secondary-bg: rgb(11, 185, 255);
     --accent-bg: black;
 }
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 
 body {
