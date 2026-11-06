@@ -14,6 +14,11 @@ Accessibility Updates
         2. In CSS I made the h3 color darker so that it is easier to read.
         3. I also made the secondary-bg darker for the white color fonts.
             rgb(9, 152, 209)
+        4. For the GBM website link, I adjusted the color by adding a class to it in my html and then editing the color and underline design with CSS
+            .gbm-site {
+                 color: black;
+                     font-weight: bold;
+                    text-decoration: underline wavy;
     Touch Targets:
         1. 
 
